@@ -46,6 +46,10 @@ def exibir_subtitulo(texto):
     print()
 
 def cadastrar_novo_restaurante():
+
+    ''' Essa função é responsável por cadastrar um novo restaurante '''
+
+
     exibir_subtitulo('Cadastro de novo restaurante')
     nome_do_restaurante = str(input('Digite o nome do restaurante que deseja cadastrar: '))
     categoria = str(input(f'Digite o nome da categoria do restaurante {nome_do_restaurante}: '))
@@ -59,6 +63,9 @@ def cadastrar_novo_restaurante():
     voltar_ao_menu_principal()
 
 def listar_restaurantes():
+
+    ''' Essa função é responsável por listar todos os restaurante cadastrados no app '''
+
     exibir_subtitulo('Listando os restaurantes')
 
     print(f'{'Nome do restaurante'.ljust(22)} | {'Categoria'.ljust(22)} | Status')
@@ -72,6 +79,9 @@ def listar_restaurantes():
     voltar_ao_menu_principal()
 
 def alternar_estado_do_restaurante():
+
+    ''' Essa função é responsável por alternar o estado do restaurante pelo o nome '''
+
     exibir_subtitulo('Alternando estado do restaurante\n')
 
     nome_restaurante = str(input('Digite o nome do restaurante que deseja alternar o estado: '))
@@ -90,6 +100,9 @@ def alternar_estado_do_restaurante():
 
 
 def finalizar_app():
+
+    ''' Essa função é responsável por fechar o app '''
+
     exibir_subtitulo('Finalizando App')
 
 def escolher_opcao():
