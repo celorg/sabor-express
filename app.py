@@ -47,8 +47,17 @@ def exibir_subtitulo(texto):
 
 def cadastrar_novo_restaurante():
 
-    ''' Essa função é responsável por cadastrar um novo restaurante '''
+    ''' 
+    Essa função é responsável por cadastrar um novo restaurante 
 
+    inputs: 
+    -Nome do restaurante
+    -Categoria
+
+    Output:
+    -Adiciona um novo restaurante a lista de restaurantes
+
+    '''
 
     exibir_subtitulo('Cadastro de novo restaurante')
     nome_do_restaurante = str(input('Digite o nome do restaurante que deseja cadastrar: '))
@@ -80,7 +89,16 @@ def listar_restaurantes():
 
 def alternar_estado_do_restaurante():
 
-    ''' Essa função é responsável por alternar o estado do restaurante pelo o nome '''
+    ''' 
+    Essa função é responsável por alternar o estado do restaurante pelo o nome 
+    
+    inputs: 
+    -Nome do restaurante
+
+    Output:
+    -Alterna o estado "ativo" do restaurante (Treu ou False)
+
+    '''
 
     exibir_subtitulo('Alternando estado do restaurante\n')
 
